@@ -1,1 +1,1 @@
-web: gunicorn time:app --log-file -
+web: gunicorn helloflask:app --log-file -
